@@ -1,0 +1,19 @@
+.heading {
+  padding-top: 25px;
+  text-align: center;
+}
+.page-data {
+  margin-top: 15%;
+  border-radius: 5px;
+  border: solid 1px rgb(207, 205, 205);
+}
+.data-row {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.data-col {
+  background-image: linear-gradient(to top left, rgb(175, 175, 175), white);
+}
+.search-btn {
+  background-image: linear-gradient(to top left, rgb(66, 65, 65), white);
+}
