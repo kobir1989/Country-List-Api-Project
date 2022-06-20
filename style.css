@@ -30,6 +30,10 @@ h1 {
   border: solid 1px rgb(221, 219, 219);
 }
 
+.nthChild:nth-child(even) {
+  background-image: linear-gradient(to top left, #c6e7c6, #faf6fc);
+  border: solid 1px rgb(221, 219, 219);
+}
 .heading-row {
   margin-top: 1%;
   font-size: 1.5rem;
@@ -53,12 +57,6 @@ h1 {
 .search--div {
   margin-top: 10%;
 }
-
-.page2--data {
-  border: none;
-}
-
-.home--link {
-  text-decoration: none;
-  color: #49835f;
+#heading-row {
+  color: #4e7960;
 }

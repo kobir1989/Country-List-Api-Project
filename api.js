@@ -13,7 +13,7 @@ const getData = async function () {
   });
 };
 
-console.log(getData());
+getData();
 
 // search bar
 
