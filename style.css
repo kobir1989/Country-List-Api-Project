@@ -57,6 +57,9 @@ h1 {
 .search--div {
   margin-top: 10%;
 }
-#heading-row {
-  color: #4e7960;
+.error {
+  background-color: rgb(241, 147, 147);
+  height: 3rem;
+  font-size: 1.5rem;
+  border: solid 0.5px red;
 }

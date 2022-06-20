@@ -1,3 +1,4 @@
+//display api data in UI
 const renderData = function (data) {
   const html = `
         <div class="nthChild data-row row">
@@ -17,3 +18,14 @@ const renderData = function (data) {
         `;
   displayElement.insertAdjacentHTML("beforeend", html);
 };
+
+//display alert
+
+function showAlert() {
+  const error = `<div class= "error">Something went wrong! Please try again.</div>`;
+
+  document.querySelector(".heading").insertAdjacentHTML("beforeend", error);
+  setTimeout(() => {
+    document.querySelector(".error").remove();
+  }, 3000);
+}
