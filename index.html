@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,31 +27,38 @@
     <!--heading-->
     <div class="container">
       <div class="heading">
-        <h1><i class="fa-solid fa-earth-americas"></i> Country list</h1>
+        <h1><i class="fa-solid fa-earth-americas"></i> Where to ?</h1>
       </div>
-    </div>
-    <!--Serch bar with btn-->
-   <div class="search--div row height d-flex justify-content-center align-items-center">
-     <div class="col-md-8">
-       <div class="search">
-         <i class="fa fa-search"></i>
-         <input type="text" class="form-control" placeholder="Search Country name..">
-         <button class="btn btn-primary">Search</button>
-       </div>
-     </div>
-   </div>
+      <!--Serch bar with btn-->
+      <div
+        class="search--div row height d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-8">
+          <div class="search">
+            <i class="fa fa-search"></i>
+            <input
+              type="text"
+              class="form-control"
+              id="search--input"
+              placeholder="Search Country name.."
+            />
+          </div>
+        </div>
+      </div>
       <!--Api Data body-->
-      <div class="page-data container">
+      <div class="page-data container-lg">
         <div class="heading-row row">
-          <div class="data-col col">Flag</div>
+          <div class="flag--col data-col col">Flag</div>
           <div class="col">Name</div>
           <div class="data-col col">Region</div>
           <div class="col">Capital</div>
           <div class="data-col col">Population</div>
+
           <div class="API-data"></div>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="UI.js"></script>
+    <script src="api.js"></script>
   </body>
 </html>
